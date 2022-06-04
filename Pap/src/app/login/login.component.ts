@@ -20,7 +20,6 @@ export class LoginComponent implements OnInit {
     
     //this.flag=this.comServ.checkLoginCredentials(u.username,u.password);
       if (this.username === 'ad' && this.password === 'ad') {
-        alert(this.username+"  "+this.password)
         sessionStorage.setItem('role', 'admin');
         this.router.navigateByUrl('admin/dashboard');
       }

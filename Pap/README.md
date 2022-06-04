@@ -119,6 +119,11 @@ material-dashboard-angular
 │   │   │   ├── dashboard.component.html
 │   │   │   ├── dashboard.component.spec.ts
 │   │   │   └── dashboard.component.ts
+│   │   ├── employee
+│   │   │   ├── employee.component.css
+│   │   │   ├── employee.component.html
+│   │   │   ├── employee.component.spec.ts
+│   │   │   └── employee.component.ts
 │   │   ├── icons
 │   │   │   ├── icons.component.css
 │   │   │   ├── icons.component.html

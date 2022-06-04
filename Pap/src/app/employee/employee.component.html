@@ -1,0 +1,40 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header card-header-danger">
+                        <h4 class="card-title ">Employee List</h4>
+                        <p class="card-category"> Here is a subtitle for this table</p>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead class=" text-primary">
+                                    <th>Id</th>
+                                    <th>Name</th>
+                                    <th>DOB</th>
+                                    <th>Email</th>
+                                    <th>Address</th>
+                                    <th>Status</th>
+                                </thead>
+                                <tbody>
+                                    <tr *ngFor="let emp of employeelist">
+                                        <td>{{emp.empid}}</td>    
+                                        <td>{{emp.firstName}} {{emp.lastName}}</td>
+                                        <td>{{emp.dob}}</td>
+                                        <td>{{emp.email}}</td>
+                                        <td>{{emp.address}}</td>
+                                        <td>{{emp.status}}</td>
+                                    </tr>
+                                </tbody>
+                                
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  
